@@ -17,6 +17,9 @@
 
 ## Projects
 
+- **[Soniq](https://github.com/oneKn8/soniq)** - AI voice agents for business phone handling. Full-stack voice pipeline (Deepgram STT, Cartesia TTS, LLM orchestration) with sub-500ms latency. Multi-tenant architecture, CRM, calendar sync (Google/Outlook/Calendly), 27 industry presets.
+  ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LiveKit](https://img.shields.io/badge/-LiveKit-FF2D55?style=flat-square) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+
 - **[VectorVault](https://github.com/oneKn8/VectorVault)** - HNSW approximate nearest neighbor engine from scratch in C++20. AVX2 SIMD-accelerated distance computation, memory-mapped persistence, sub-millisecond queries at 100k vectors.
   ![C++](https://img.shields.io/badge/-C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
