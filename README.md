@@ -4,7 +4,6 @@
 
 Vector search engines, distributed task queues, voice AI pipelines, quantum circuit optimizers -- from scratch, in C++, Go, Rust, Python, and TypeScript.
 
-CTO @ Rhemic -- AI-powered search visibility platform
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
