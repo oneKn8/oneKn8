@@ -1,61 +1,67 @@
 # Santo
 
-**I build the infrastructure most engineers `import`.**
+**Most of what I build, I build from the algorithm up.**
 
-Vector search engines, distributed task queues, voice AI pipelines, quantum circuit optimizers -- from scratch, in C++, Go, Rust, Python, and TypeScript.
+Bandpass filters and FFTs written by hand in Rust. Tokenizers trained, then measured against a benchmark I released so anyone can check the numbers. Retrieval indexes, agent runtimes, voice pipelines.
 
+Two threads run through most of it. **Bengali NLP**, because tooling everyone else takes for granted still handles the script badly. And **tools I actually run**, because the ones I use every day are the ones that get finished.
 
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 ---
 
-### [VectorVault](https://github.com/oneKn8/VectorVault)
+### [bengali-tokenizer-eval](https://github.com/oneKn8/bengali-tokenizer-eval)
 
-**Vector search engine from scratch in C++20. Sub-millisecond queries at 100k vectors. No FAISS. No external libraries.**
+**Tokenizer choice changes what Bengali costs you by 5 to 9x. Here is the measurement, the data, and the cause.**
 
-HNSW approximate nearest neighbor search with AVX2 SIMD-accelerated distance computation and memory-mapped persistence. Built to understand how vector databases actually work under the hood.
+I trained 13 SentencePiece tokenizers, evaluated them alongside 9 public ones across a 3,000-document Bengali corpus, and traced the worst failures to a single character. Leaving U+09BC (Bengali Nukta) out of normalization pushes byte-fallback from roughly 2% to 20%, and accounts for 89.8% of every byte-level token produced.
 
-![C++20](https://img.shields.io/badge/-C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+All 13 tokenizers ship in the repo, along with the benchmark set, a per-document SHA-256 manifest, a datasheet, the frozen evaluation results, and the paper. The table is meant to be rerun, not taken on faith.
 
----
-
-### [Soniq](https://github.com/oneKn8/soniq)
-
-**AI voice agents that pick up business phones, book appointments, and handle objections -- all in under 500ms.**
-
-Full-stack voice pipeline: Deepgram STT, LLM orchestration, Cartesia TTS. Multi-tenant SaaS with CRM integration, calendar sync (Google, Outlook, Calendly), and 27 industry-specific agent presets.
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LiveKit](https://img.shields.io/badge/-LiveKit-FF2D55?style=flat-square) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+Python, SentencePiece, ACL-format paper
 
 ---
 
-### [QUASAR](https://github.com/oneKn8/QUASAR)
+### [undertone](https://github.com/oneKn8/undertone)
 
-**What if an LLM could discover quantum circuits?**
+**Push-to-talk voice typing for Linux. Hold a key, speak, release, and the words land in whatever window has focus.**
 
-Physics-augmented LLM proposes candidate circuits. A surrogate neural network filters 10,000+ candidates in milliseconds. The top 10% go through full VQE quantum simulation. Bridges machine learning with quantum chemistry.
+Groq Whisper with a local faster-whisper fallback, LLM cleanup guarded against quietly rewriting your slang into corporate English, and clipboard-plus-evdev injection for the apps that refuse synthetic keystrokes. Runs as a systemd user service.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Qiskit](https://img.shields.io/badge/-Qiskit-6929C4?style=flat-square&logo=ibm&logoColor=white)
+`pipx install undertone`. Tested against Python 3.10, 3.11, and 3.12 in CI. I dictate with it daily, which is why the rough edges keep getting filed down.
+
+Python, PyPI, systemd
 
 ---
 
-### More Work
+### [granum](https://github.com/oneKn8/granum)
 
-| Project | What | Built With |
-|---------|------|-----------|
-| **[RivetQ](https://github.com/oneKn8/RivetQ)** | Durable task queue with WAL, Raft consensus, dead-letter queues, rate limiting | Go, gRPC, Prometheus |
-| **[Research Agent](https://github.com/oneKn8/Research-Agent)** | Autonomous research pipeline with locally-hosted DeepSeek-R1-14B via vLLM | Python, LangGraph, FastAPI |
-| **[OpenLock](https://github.com/oneKn8/openlock_browser)** | Open-source lockdown browser for Linux -- SEB protocol, kiosk shell, VM detection | C++17, Qt6, Chromium |
-| **[Pulse](https://github.com/oneKn8/Pulse)** | HPC cluster observability -- GPU telemetry, SLURM scheduling, LLM ops assistant | Go, Prometheus, Grafana |
-| **[SearchLight](https://github.com/oneKn8/searchLight)** | Hybrid search API (BM25 + HNSW) via Lucene 9, hexagonal architecture | Java 21, Spring Boot |
-| **[Socratic](https://github.com/oneKn8/socratic)** | Private multi-model NotebookLM alternative -- 16+ providers, vector search, podcasts | TypeScript, Next.js |
-| **[Syzygy](https://github.com/oneKn8/Syzygy)** | Document engineering IDE -- Rust + Tauri 2.0 + Typst backend, visual pipelines | Rust, Tauri, Typst |
-| **[mcp-memory](https://github.com/oneKn8/mcp-memory)** | Persistent agent memory server with semantic search and importance scoring | Python, ChromaDB, MCP |
+**Insurance denial appeals, optimized the way an immune system optimizes antibodies.**
+
+Populations of appeal strategies mutate, compete on an LLM judge's score, then promote or apoptose. The loop is a real germinal center: negative selection, tournament, elitist retention, feedback-directed mutation. Strategy lineage is tracked through Arize Phoenix over MCP.
+
+The web demo replays frozen artifacts from real runs instead of calling the model live, and the code says so out loud rather than passing it off as live inference. [Demo video](https://youtu.be/483aJsQ9c6Y).
+
+Python, Gemini on Vertex, Phoenix MCP
+
+---
+
+### Also worth your time
+
+| Project | What it is | Built with |
+|---------|------------|-----------|
+| **[glyphlab](https://github.com/oneKn8/glyphlab)** | Image to glyph art in the browser: ASCII, Braille, halftone, sextants, plus buildable LEGO and cross-stitch charts with real part codes. [Live](https://glyphlab-rose.vercel.app) | TypeScript, Canvas |
+| **[vitals](https://github.com/oneKn8/vitals)** | See your own pulse on a webcam. Eulerian video magnification and FFT-based rPPG, signal processing written from scratch | Rust, rustfft |
+| **[soniq](https://github.com/oneKn8/soniq)** | AI phone agent for small businesses. LiveKit voice pipeline, tenant isolation enforced by Postgres row-level security rather than a WHERE clause | TypeScript, Python |
+| **[lifeagent](https://github.com/oneKn8/lifeagent)** | Accountability bot that checks what you claim against GitHub, Strava, and Wakatime before it believes you | TypeScript, Postgres |
+| **[agentgov](https://github.com/oneKn8/agentgov)** | Policy engine gating agent trust and release. Signed, idempotent decisions, with homoglyph-aware prompt-injection scanning | TypeScript, MCP |
+| **[drift](https://github.com/oneKn8/drift)** | Audio post-production for generated music. Beat-synced chroma loop detection and Camelot-wheel arrangement, both written by hand | Python, React |
+| **[machine-memory](https://github.com/oneKn8/machine-memory)** | Local-first file and repo search daemon, exposed to agents over MCP | TypeScript, SQLite |
+| **[profgraph](https://github.com/oneKn8/profgraph)** | Professor intelligence for any LLM: ratings, teaching style, and real UTD grade distributions | Python, MCP |
 
 ---
 
