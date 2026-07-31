@@ -46,7 +46,22 @@ A repo is easy to describe and hard to verify, so the list below is ordered by h
 
 ---
 
+## Currently green
+
+<p align="center">
+  <a href="https://pypi.org/project/undertone/"><img alt="undertone on PyPI" src="https://img.shields.io/pypi/v/undertone?style=flat-square&amp;color=e8a34c&amp;label=undertone%20on%20pypi"></a>
+  <a href="https://github.com/oneKn8/undertone/actions"><img alt="undertone CI" src="https://img.shields.io/github/actions/workflow/status/oneKn8/undertone/ci.yml?style=flat-square&amp;label=undertone%20CI"></a>
+  <a href="https://github.com/oneKn8/granum/actions"><img alt="granum CI" src="https://img.shields.io/github/actions/workflow/status/oneKn8/granum/ci.yml?style=flat-square&amp;label=granum%20CI"></a>
+  <a href="https://github.com/oneKn8/agentgov/actions"><img alt="agentgov CI" src="https://img.shields.io/github/actions/workflow/status/oneKn8/agentgov/ci.yml?style=flat-square&amp;label=agentgov%20CI"></a>
+</p>
+
+<p align="center">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=oneKn8&amp;hide_border=true&amp;background=00000000&amp;stroke=8b949e&amp;ring=e8a34c&amp;fire=e8a34c&amp;currStreakNum=e8a34c&amp;currStreakLabel=e8a34c&amp;sideNums=7d8590&amp;sideLabels=7d8590&amp;dates=6e7681&amp;excludeDaysLabel=6e7681">
+</p>
+
 ![Contribution graph](https://ghchart.rshah.org/e8a34c/oneKn8)
+
+---
 
 [![X](https://img.shields.io/badge/-@shifat__santo-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/shifat_santo)
 [![LinkedIn](https://img.shields.io/badge/-Shifat_Islam_Santo-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shifatislam-santo/)
