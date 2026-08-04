@@ -204,10 +204,12 @@ def render(theme: str, daily: dict[str, int], weeks, cuts: list[int]) -> str:
         f"<text x='{label_x}' y='{hero_y}' font-size='15' font-weight='550' "
         f"fill='{t['ink']}'>day streak</text>"
     )
+    # Literal characters, not entities: this string goes through escape(),
+    # which would turn the '&' of an entity into '&amp;' and print it raw.
     if current == longest:
-        note = f"{began:%b} {began.day} &#8594; today &#183; your longest, still running"
+        note = f"{began:%b} {began.day} → today · your longest, still running"
     else:
-        note = f"{began:%b} {began.day} &#8594; today &#183; longest was {longest}"
+        note = f"{began:%b} {began.day} → today · longest was {longest}"
     o.append(
         f"<text x='{label_x}' y='{hero_y + 19}' font-size='12' "
         f"fill='{t['muted']}'>{escape(note)}</text>"
