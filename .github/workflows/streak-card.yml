@@ -37,7 +37,9 @@ jobs:
       - name: Point the README at today's render
         run: |
           today=$(date -u +%Y%m%d)
-          sed -i -E "s|(assets/streak-(dark|light)\.svg\?v=)[0-9]{8}|\1${today}|g" README.md
+          # '#' as the delimiter: the pattern contains both '/' and '|'.
+          sed -i -E "s#(assets/streak-(dark|light)\.svg\?v=)[0-9]{8}#\1${today}#g" README.md
+          grep -q "v=${today}" README.md
 
       - name: Commit if anything moved
         run: |

@@ -115,6 +115,14 @@ def fetch(token: str, user: str) -> tuple[dict[str, int], list[list[tuple[str, i
     ]
     if not daily or not weeks:
         raise SystemExit("no contribution data returned; refusing to write a card")
+    if sum(daily.values()) == 0:
+        # A calendar of all zeros means the token could not see the
+        # contribution graph, not that the account is idle. Writing that card
+        # would silently replace a good one with an empty one.
+        raise SystemExit(
+            f"{user} has 0 contributions across {len(daily)} days; "
+            "the token is probably not authorised to read the calendar"
+        )
     return daily, weeks
 
 
