@@ -56,10 +56,11 @@ A repo is easy to describe and hard to verify, so the list below is ordered by h
 </p>
 
 <p align="center">
-  <img alt="Contribution streak" src="https://streak-stats.demolab.com/?user=oneKn8&amp;hide_border=true&amp;background=00000000&amp;stroke=8b949e&amp;ring=e8a34c&amp;fire=e8a34c&amp;currStreakNum=e8a34c&amp;currStreakLabel=e8a34c&amp;sideNums=7d8590&amp;sideLabels=7d8590&amp;dates=6e7681&amp;excludeDaysLabel=6e7681">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-dark.svg?v=20260804">
+    <img alt="Contribution streak and activity" src="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-light.svg?v=20260804">
+  </picture>
 </p>
-
-![Contribution graph](https://ghchart.rshah.org/e8a34c/oneKn8)
 
 ---
 
