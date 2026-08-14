@@ -57,8 +57,8 @@ A repo is easy to describe and hard to verify, so the list below is ordered by h
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-dark.svg?v=20260813">
-    <img alt="Contribution streak and activity" src="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-light.svg?v=20260813">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-dark.svg?v=20260814">
+    <img alt="Contribution streak and activity" src="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-light.svg?v=20260814">
   </picture>
 </p>
 
