@@ -1,11 +1,11 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='874' height='298' viewBox='0 0 874 298' role='img' aria-label='187 day contribution streak, 4832 contributions all time' font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns='http://www.w3.org/2000/svg' width='874' height='298' viewBox='0 0 874 298' role='img' aria-label='188 day contribution streak, 5088 contributions all time' font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
 <style>text{font-variant-numeric:tabular-nums;font-feature-settings:'tnum' 1}</style>
-<text x='26' y='72' font-size='46' font-weight='650' fill='#b3701e' letter-spacing='-1.4'>187</text>
+<text x='26' y='72' font-size='46' font-weight='650' fill='#b3701e' letter-spacing='-1.4'>188</text>
 <text x='118' y='72' font-size='15' font-weight='550' fill='#1f2328'>day streak</text>
 <text x='118' y='91' font-size='12' fill='#59636e'>Feb 9 → today · your longest, still running</text>
-<text x='848' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>4,832</text>
+<text x='848' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>5,088</text>
 <text x='848' y='73' text-anchor='end' font-size='11.5' fill='#59636e'>contributions</text>
-<text x='698' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>274</text>
+<text x='698' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>275</text>
 <text x='698' y='73' text-anchor='end' font-size='11.5' fill='#59636e'>active days</text>
 <line x1='26' y1='100' x2='848' y2='100' stroke='#d8dee4' stroke-width='1'/>
 <text x='116' y='130' font-size='10.5' fill='#8c959f'>Sep</text>
@@ -283,9 +283,9 @@
 <rect x='596' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-04-24: 20</title></rect>
 <rect x='596' y='230' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-25: 26</title></rect>
 <rect x='611' y='140' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-04-26: 4</title></rect>
-<rect x='611' y='155' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-27: 54</title></rect>
-<rect x='611' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-28: 29</title></rect>
-<rect x='611' y='185' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-04-29: 21</title></rect>
+<rect x='611' y='155' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-27: 99</title></rect>
+<rect x='611' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-28: 54</title></rect>
+<rect x='611' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-29: 37</title></rect>
 <rect x='611' y='200' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-04-30: 4</title></rect>
 <rect x='611' y='215' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-01: 4</title></rect>
 <rect x='611' y='230' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-05-02: 16</title></rect>
@@ -297,9 +297,9 @@
 <rect x='626' y='215' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-08: 33</title></rect>
 <rect x='626' y='230' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-05-09: 7</title></rect>
 <rect x='641' y='140' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-10: 4</title></rect>
-<rect x='641' y='155' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-11: 5</title></rect>
+<rect x='641' y='155' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-05-11: 6</title></rect>
 <rect x='641' y='170' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-05-12: 21</title></rect>
-<rect x='641' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-13: 63</title></rect>
+<rect x='641' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-13: 115</title></rect>
 <rect x='641' y='200' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-05-14: 7</title></rect>
 <rect x='641' y='215' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-15: 4</title></rect>
 <rect x='641' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-16: 4</title></rect>
@@ -315,10 +315,10 @@
 <rect x='671' y='170' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-26: 4</title></rect>
 <rect x='671' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-27: 83</title></rect>
 <rect x='671' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-28: 25</title></rect>
-<rect x='671' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-05-29: 19</title></rect>
+<rect x='671' y='215' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-29: 33</title></rect>
 <rect x='671' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-30: 4</title></rect>
-<rect x='686' y='140' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-31: 27</title></rect>
-<rect x='686' y='155' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-01: 14</title></rect>
+<rect x='686' y='140' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-31: 28</title></rect>
+<rect x='686' y='155' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-01: 17</title></rect>
 <rect x='686' y='170' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-02: 21</title></rect>
 <rect x='686' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-03: 43</title></rect>
 <rect x='686' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-04: 27</title></rect>
@@ -336,7 +336,7 @@
 <rect x='716' y='170' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-06-16: 4</title></rect>
 <rect x='716' y='185' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-06-17: 5</title></rect>
 <rect x='716' y='200' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-18: 16</title></rect>
-<rect x='716' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-19: 15</title></rect>
+<rect x='716' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-19: 16</title></rect>
 <rect x='716' y='230' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-20: 21</title></rect>
 <rect x='731' y='140' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-21: 11</title></rect>
 <rect x='731' y='155' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-22: 6</title></rect>
@@ -344,19 +344,19 @@
 <rect x='731' y='185' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-24: 13</title></rect>
 <rect x='731' y='200' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-25: 6</title></rect>
 <rect x='731' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-26: 14</title></rect>
-<rect x='731' y='230' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-27: 6</title></rect>
+<rect x='731' y='230' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-27: 8</title></rect>
 <rect x='746' y='140' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-28: 26</title></rect>
 <rect x='746' y='155' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-29: 11</title></rect>
-<rect x='746' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-30: 36</title></rect>
-<rect x='746' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-01: 25</title></rect>
+<rect x='746' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-30: 58</title></rect>
+<rect x='746' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-01: 34</title></rect>
 <rect x='746' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-02: 40</title></rect>
-<rect x='746' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-07-03: 15</title></rect>
+<rect x='746' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-07-03: 17</title></rect>
 <rect x='746' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-07-04: 4</title></rect>
-<rect x='761' y='140' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-07-05: 21</title></rect>
+<rect x='761' y='140' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-05: 29</title></rect>
 <rect x='761' y='155' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-07-06: 11</title></rect>
 <rect x='761' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-07: 26</title></rect>
-<rect x='761' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-08: 114</title></rect>
-<rect x='761' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-09: 61</title></rect>
+<rect x='761' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-08: 115</title></rect>
+<rect x='761' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-07-09: 99</title></rect>
 <rect x='761' y='215' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-07-10: 9</title></rect>
 <rect x='761' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-07-11: 4</title></rect>
 <rect x='776' y='140' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-07-12: 4</title></rect>
@@ -391,9 +391,10 @@
 <rect x='836' y='155' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-08-10: 12</title></rect>
 <rect x='836' y='170' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-08-11: 9</title></rect>
 <rect x='836' y='185' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-08-12: 11</title></rect>
-<rect x='836' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-08-13: 23</title></rect>
-<rect x='836' y='215' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-08-14: 2</title></rect>
-<text x='26' y='272' font-size='10.5' fill='#8c959f'>updated Aug 14, 2026</text>
+<rect x='836' y='200' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-08-13: 23</title></rect>
+<rect x='836' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-08-14: 16</title></rect>
+<rect x='836' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-08-15: 2</title></rect>
+<text x='26' y='272' font-size='10.5' fill='#8c959f'>updated Aug 15, 2026</text>
 <text x='728' y='272' text-anchor='end' font-size='10.5' fill='#8c959f'>Less</text>
 <rect x='734' y='263' width='12' height='12' rx='2.5' fill='#eceef1'/>
 <rect x='751' y='263' width='12' height='12' rx='2.5' fill='#f6d49a'/>
