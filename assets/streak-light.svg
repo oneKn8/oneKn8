@@ -1,11 +1,11 @@
-<svg xmlns='http://www.w3.org/2000/svg' width='874' height='298' viewBox='0 0 874 298' role='img' aria-label='285 day contribution streak, 6377 contributions all time' font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns='http://www.w3.org/2000/svg' width='874' height='298' viewBox='0 0 874 298' role='img' aria-label='286 day contribution streak, 6385 contributions all time' font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
 <style>text{font-variant-numeric:tabular-nums;font-feature-settings:'tnum' 1}</style>
-<text x='26' y='72' font-size='46' font-weight='650' fill='#b3701e' letter-spacing='-1.4'>285</text>
+<text x='26' y='72' font-size='46' font-weight='650' fill='#b3701e' letter-spacing='-1.4'>286</text>
 <text x='118' y='72' font-size='15' font-weight='550' fill='#1f2328'>day streak</text>
 <text x='118' y='91' font-size='12' fill='#59636e'>Feb 9 → today · your longest, still running</text>
-<text x='848' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>6,377</text>
+<text x='848' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>6,385</text>
 <text x='848' y='73' text-anchor='end' font-size='11.5' fill='#59636e'>contributions</text>
-<text x='698' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>372</text>
+<text x='698' y='56' text-anchor='end' font-size='19' font-weight='600' fill='#1f2328'>373</text>
 <text x='698' y='73' text-anchor='end' font-size='11.5' fill='#59636e'>active days</text>
 <line x1='26' y1='100' x2='848' y2='100' stroke='#d8dee4' stroke-width='1'/>
 <text x='101' y='130' font-size='10.5' fill='#8c959f'>Dec</text>
@@ -171,7 +171,7 @@
 <rect x='356' y='215' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-04-10: 5</title></rect>
 <rect x='356' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-04-11: 4</title></rect>
 <rect x='371' y='140' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-04-12: 4</title></rect>
-<rect x='371' y='155' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-04-13: 21</title></rect>
+<rect x='371' y='155' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-13: 21</title></rect>
 <rect x='371' y='170' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-04-14: 14</title></rect>
 <rect x='371' y='185' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-04-15: 15</title></rect>
 <rect x='371' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-04-16: 24</title></rect>
@@ -200,7 +200,7 @@
 <rect x='416' y='230' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-05-09: 7</title></rect>
 <rect x='431' y='140' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-10: 4</title></rect>
 <rect x='431' y='155' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-05-11: 6</title></rect>
-<rect x='431' y='170' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-05-12: 21</title></rect>
+<rect x='431' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-12: 21</title></rect>
 <rect x='431' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-13: 115</title></rect>
 <rect x='431' y='200' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-05-14: 7</title></rect>
 <rect x='431' y='215' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-15: 4</title></rect>
@@ -221,7 +221,7 @@
 <rect x='461' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-05-30: 4</title></rect>
 <rect x='476' y='140' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-05-31: 28</title></rect>
 <rect x='476' y='155' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-01: 17</title></rect>
-<rect x='476' y='170' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-02: 21</title></rect>
+<rect x='476' y='170' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-02: 21</title></rect>
 <rect x='476' y='185' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-03: 43</title></rect>
 <rect x='476' y='200' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-04: 27</title></rect>
 <rect x='476' y='215' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-05: 6</title></rect>
@@ -239,7 +239,7 @@
 <rect x='506' y='185' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-17: 5</title></rect>
 <rect x='506' y='200' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-18: 16</title></rect>
 <rect x='506' y='215' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-19: 16</title></rect>
-<rect x='506' y='230' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-20: 21</title></rect>
+<rect x='506' y='230' width='12' height='12' rx='2.5' fill='#a86a1d'><title>2026-06-20: 21</title></rect>
 <rect x='521' y='140' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-21: 11</title></rect>
 <rect x='521' y='155' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-06-22: 6</title></rect>
 <rect x='521' y='170' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-06-23: 11</title></rect>
@@ -392,8 +392,9 @@
 <rect x='836' y='170' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-11-17: 7</title></rect>
 <rect x='836' y='185' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-11-18: 2</title></rect>
 <rect x='836' y='200' width='12' height='12' rx='2.5' fill='#e09433'><title>2026-11-19: 18</title></rect>
-<rect x='836' y='215' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-11-20: 2</title></rect>
-<text x='26' y='272' font-size='10.5' fill='#8c959f'>updated Nov 20, 2026</text>
+<rect x='836' y='215' width='12' height='12' rx='2.5' fill='#efb96f'><title>2026-11-20: 9</title></rect>
+<rect x='836' y='230' width='12' height='12' rx='2.5' fill='#f6d49a'><title>2026-11-21: 1</title></rect>
+<text x='26' y='272' font-size='10.5' fill='#8c959f'>updated Nov 21, 2026</text>
 <text x='728' y='272' text-anchor='end' font-size='10.5' fill='#8c959f'>Less</text>
 <rect x='734' y='263' width='12' height='12' rx='2.5' fill='#eceef1'/>
 <rect x='751' y='263' width='12' height='12' rx='2.5' fill='#f6d49a'/>
