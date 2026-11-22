@@ -25,7 +25,6 @@ In review:
 
 - **[NVIDIA/TensorRT-LLM #18160](https://github.com/NVIDIA/TensorRT-LLM/pull/18160)** - the KV-cache-aware router dropped the request's LoRA id, so every adapter request matched zero cached blocks and routing fell back to load balancing without an error. Two maintainer approvals
 - **[vllm-project/vllm #53769](https://github.com/vllm-project/vllm/pull/53769)** - a conformance suite for KV-cache key partitioning, plus [#53496](https://github.com/vllm-project/vllm/pull/53496), which keys ExampleConnector storage on block hashes
-- **[Nova-UTD/navigator #510](https://github.com/Nova-UTD/navigator/pull/510)** - for the UT Dallas autonomous-vehicle team: found the neural planner never loaded its checkpoint, then added launch-time planner selection and a benchmark scoring all five planners on validity, cost against the optimum, and runtime against the 100 ms loop
 
 ## Rerun it yourself
 
