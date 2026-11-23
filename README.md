@@ -70,8 +70,8 @@ Earlier: [bangla-llm](https://github.com/oneKn8/bangla-llm) · [soniq](https://g
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-dark.svg?v=20261122">
-    <img alt="Contribution streak and activity" src="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-light.svg?v=20261122">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-dark.svg?v=20261123">
+    <img alt="Contribution streak and activity" src="https://raw.githubusercontent.com/oneKn8/oneKn8/main/assets/streak-light.svg?v=20261123">
   </picture>
 </p>
 
